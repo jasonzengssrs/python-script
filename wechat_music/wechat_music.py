@@ -51,7 +51,7 @@ def run(url):
 
 	result = map(save,music_url)
 
-	print(list(result))
+	list(result)
 
 
 if __name__ == '__main__':
